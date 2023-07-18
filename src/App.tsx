@@ -21,12 +21,6 @@ function App() {
             <PizzaBlock />
             <PizzaBlock />
             <PizzaBlock />
-
-            {/* <% include components/pizza-block.ejs %> <% include components/pizza-block.ejs %> <%
-            include components/pizza-block.ejs %> <% include components/pizza-block.ejs %> <%
-            include components/pizza-block.ejs %> <% include components/pizza-block.ejs %> <%
-            include components/pizza-block.ejs %> <% include components/pizza-block.ejs %> <%
-            include components/pizza-block.ejs %> */}
           </div>
         </div>
       </div>
