@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { act } from "react-dom/test-utils";
 
-const PizzaBlock = ({ title, price, image, sizes, types }) => {
+const PizzaBlock = ({ title, price, imageUrl, sizes, types }) => {
   const [activeSize, setActiveSize] = useState(0);
   const [activeType, setActiveType] = useState(0);
 
@@ -9,7 +9,7 @@ const PizzaBlock = ({ title, price, image, sizes, types }) => {
 
   return (
     <div className="pizza-block">
-      <img className="pizza-block__image" src={image} alt="Pizza" />
+      <img className="pizza-block__image" src={imageUrl} alt="Pizza" />
       <h4 className="pizza-block__title">{title}</h4>
       <div className="pizza-block__selector">
         <ul>
